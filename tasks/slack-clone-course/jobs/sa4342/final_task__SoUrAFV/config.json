@@ -1,0 +1,18 @@
+{
+    "task": {
+        "path": "tasks/slack-clone-course/course-staff-files/final_task"
+    },
+    "trial_name": "final_task__SoUrAFV",
+    "trials_dir": "/Users/shreya.a/projects/swe-marathon-course-milestone-0-new/tasks/slack-clone-course/jobs/2026-10-06__23-27-27",
+    "agent": {
+        "name": "mini_swe_agent_local:MiniSweAgentLocal",
+        "model_name": "openai/gpt-5.6-luna",
+        "kwargs": {
+            "config_file": "/Users/shreya.a/projects/swe-marathon-course-milestone-0-new/tasks/slack-clone-course/course-staff-files/final_task/agent_llm_config/mswea-openai-gpt-5.6-luna-no-reasoning.yaml"
+        }
+    },
+    "verifier": {
+        "disable": true
+    },
+    "job_id": "b46b91cb-c97f-468e-af17-e88a7a21c337"
+}
