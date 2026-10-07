@@ -1,0 +1,38 @@
+__pycache__/
+**/__pycache__/
+jobs/
+.env
+.venv/
+venv/
+.oddish/
+# Rust build artifacts (universal — anywhere in the tree)
+target/
+Cargo.lock
+!tasks/kubernetes-rust-rewrite/environment/starter/Cargo.lock
+.DS_Store
+.trials.env
+long_horizon.egg-info/
+trial_logs/
+trial_state/
+# Per-shard generated YAMLs (uniquified by PID/RANDOM/ns) from
+# scripts/run-closed-internet-shard.sh. Throwaway artefacts of one
+# harbor invocation; never meant to be committed.
+scripts/closed-internet-*-shard.yaml
+
+# Local temporary task worktree
+tasks/post-train-ifeval-tmp
+build/
+
+tasks/slack-clone-course/student-files/spec
+tasks/slack-clone-course/course-staff-files/final_task/environment/spec
+# Local dev env file (secrets: SMTP password, API keys) -- never commit
+# dev.env
+dev_bak.env
+
+tasks/slack-clone-course/course-staff-files/results/
+tasks/slack-clone-course/.parallel-run-logs/
+.trash
+.claude
+tasks/slack-clone-course/duds-archive/
+tasks/slack-clone-course/test.py
+tasks/slack-clone-course/run_3x_and_grade.shdev.env

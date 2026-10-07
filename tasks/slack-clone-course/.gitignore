@@ -1,0 +1,7 @@
+__pycache__/
+jobs/
+.venv/
+venv/
+
+course-staff-files/final_task/environment/spec
+student-files/spec
